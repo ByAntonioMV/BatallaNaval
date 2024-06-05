@@ -1,32 +1,15 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Sawarabi+Mincho&display=swap');
 
+body, html {
+    background-color: #f0f0f0;
     background: url('./imagenes/confi2.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
-#matrix-container {
-    display: grid;
-    grid-template-columns: repeat(8, 50px);
-    grid-template-rows: repeat(8, 50px);
-    gap: 2px;
-}
-
-.cell {
-    width: 50px;
-    height: 50px;
-    border: 1px solid white;
-    background-color: #5499C7 ;
-    /*background-color: #3498db;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1 {
+    font-size: 160px;
     color: white;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
