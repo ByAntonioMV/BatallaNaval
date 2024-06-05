@@ -35,3 +35,19 @@ span {
     background-color: rgba(30, 30, 30, 0.8);
     backdrop-filter: blur(4px);
 }
+
+/* Estilo para el tablero */
+.myRow {
+    display: flex;
+}
+
+.grid {
+    width: 40px; /* Ajusta el tamaño según tus necesidades */
+    height: 40px; /* Ajusta el tamaño según tus necesidades */
+    border: 1px solid #FFFFFF; /* Blanco para las líneas */
+    background-color: #4682B4; /* Azul para el fondo */
+}
+
+.grid:hover {
+    background-color: #1E90FF; /* Azul más claro al pasar el mouse */
+}
