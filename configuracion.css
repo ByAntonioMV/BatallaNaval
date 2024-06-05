@@ -30,3 +30,8 @@ span {
     font-weight: 400;
     font-style: bold;
 }
+
+.est-tabla{
+    background-color: rgba(30, 30, 30, 0.8);
+    backdrop-filter: blur(4px);
+}
