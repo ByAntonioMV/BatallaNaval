@@ -44,3 +44,9 @@ h2 {
 .miss{
     background-color: gray;
 }
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo */
+    padding: 20px; /* Añade un poco de padding */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+    color: white;
+}
